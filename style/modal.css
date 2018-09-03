@@ -1,0 +1,98 @@
+#modalBtn{
+
+	padding:10px 20px;
+	background-color: #1ABC9C;
+	border:1px solid #1ABC9C ;
+	border-radius: 5px;
+	color:white;  
+    font-weight: 800;
+    width:200px;
+	 transition : box-shadow 0.5s;
+}
+#modalBtnDiv{
+	margin:auto;
+	margin-top:30vh;
+	width:200px;
+}
+
+#modalBtn:hover{
+	cursor: pointer;
+	box-shadow: 0px 3px 10px 2px #1ABC9C;
+}
+
+
+   .modal {
+      	display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top:20vh;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin:auto;
+        border-radius: 0.5vw;
+       width:45vw;
+    }
+.modalTitle{
+
+	padding:20px 10px 0px 20px;
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+.modalText{
+padding:0px 10px 0px 20px;
+	font-size: 1.2rem;	
+}
+
+.closebtn-bg{
+
+	text-align:center;
+	padding: 5px 0px 10px 10px; 
+}
+ .closebtn {
+    border-radius: 5px;
+    border:1px solid lightgray;
+    color:white;
+    background-color :  #ff1a1a;
+    font-size:0.8rem;
+    font-weight: bold;
+    padding:5px 8px;
+    cursor: pointer;
+}    
+
+
+ .submitbtn {
+    border-radius: 5px;
+    border:1px solid lightgray;
+    color:white;
+    background-color :  #3366ff;
+    font-size:0.8rem;
+    font-weight: bold;
+    padding:5px 8px;
+     cursor: pointer;
+} 
+
+@media only screen and (max-width: 758px){
+
+  .modal-content {
+        background-color: #fefefe;
+        margin:auto;
+        border-radius: 0.5vw;
+       width:60vw;
+    }
+
+}
+
+
+
+
+
+
+
